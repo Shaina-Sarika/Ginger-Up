@@ -1,0 +1,201 @@
+/*  font-family: 'Poppins', sans-serif;
+ font-family: 'Source Serif 4', serif;
+   font-family: 'Ysabeau', sans-serif;
+  color:white;
+  color: #252525;
+   color: #eb4846;
+   color: #e7f9fd;
+   #d9fff5
+*/
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    margin: 0px;
+    padding: 0px;
+    border:0;
+}
+.nav-link
+{
+    font-family: 'Poppins', sans-serif;
+    padding:0px;
+    color:white;
+}
+.dropdown-toggle::after
+{
+    margin-left: 0;
+}
+.search-bar
+{
+    margin-top: 1rem;
+}
+.carousel-item
+{
+    height:400px;
+    margin-top: 1rem;
+}
+/*.how
+{
+   
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+}
+*/
+.d-block w-100
+{
+    height:100px;
+    width:auto;
+}
+.cat_heading
+{
+    display: inline-block;
+    color: #252525;
+    font-family: 'Source Serif 4', serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin:2.5rem 5rem 0.5rem 12rem;
+}
+.scroll-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 0.06rem;
+  }
+  
+  .scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+} 
+.cat_font
+{
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 0;
+}
+.cat
+{
+    margin:0rem 2.5rem 0rem 2.5rem;
+}
+.categories
+{
+    margin: 2rem 2rem 0.5rem 2rem;
+    width: 8rem;
+}
+.categories-link
+{
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+#link1
+{
+    position: absolute;
+    left: 5.3rem;
+}
+#link2
+{
+    position: relative;
+    left: 18.6rem;
+}
+#link3
+{
+    position: absolute;
+    left: 31.3rem;
+}
+#link4
+{
+    position: absolute;
+    left: 42.9rem;
+}
+#link5
+{
+    position: absolute;
+    left: 55.6rem;
+}
+#link6
+{
+    position: absolute;
+    left: 66.3rem;
+}
+#link7
+{
+    position: absolute;
+    left: 79.4rem;
+}
+.videos
+{
+    background-image: linear-gradient(white,#d9fff5);
+    text-align: center;
+}
+.tutorials
+{
+    color: black;
+    font-family: 'Source Serif 4', serif;
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+#video_links
+{
+    margin: 4rem 4.5rem 4rem 4.5rem;
+}
+#vidimg2
+{
+    margin-left: 1.5rem;
+}
+#vidimg3
+{
+    margin-left: 1.5rem;
+}
+#vidimg4
+{
+    margin-left: 1.5rem;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #eb4846 !important;
+    border-color: #eb4846 !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3rem;
+}
+.fa-instagram
+{
+    margin-left: 0.5rem;
+}
