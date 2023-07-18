@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ginger Up</title>
+    <!--bootstrap css and js link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <!--css file link-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:wght@700&family=Ysabeau:ital,wght@1,200&display=swap" rel="stylesheet">
+    <!--font awesome link-->
+    <script src="https://kit.fontawesome.com/3143629d5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <a class="navbar-brand" href="">Ginger Up</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav d-flex flex-row me-1 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="search.html"><i class="fas fa-search"></i>     Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fa-solid fa-info mx-2"></i>About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fa-solid fa-circle-plus mx-2"></i>Post</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fa-solid fa-user mx-2"></i>Profile</a>
+              </li>
+              <!--dropdown menu-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Notifications</a></li>
+                  <li><a class="dropdown-item" href="#">Liked Recipes</a></li>
+                  <li><a class="dropdown-item" href="#">Saved</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                </ul>
+              </li>
+            </ul>
+           </div>
+        </nav> 
+        <!--Carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="images/slide1.png" class="d-block w-100 img" alt="picture 1">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-box">
+                  <h7>Short on time but still want to impress? Our quick and creative recipes are designed to deliver maximum flavor in minimum time. From 15-minute fried rice to speedy pasta dishes, you'll be amazed at what you can create in a flash.</h7>
+                  <a href="https://recipes.timesofindia.com/web-stories/18-quick-meals-that-can-be-made-in-15-minutes/photostory/98379869.cms" style="color: white; font-size: medium;">Click here to expore more</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slide2.png" class="d-block w-100 img" alt="picture 2">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="fishRecipe.html" style="color: white; font-size: 1.5rem;">Delight your taste buds with flavorful fish recipes that will make you crave for more</a>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slide3.png" class="d-block w-100 img" alt="picture 3">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-box">
+                  <h7>When hunger strikes, there's nothing better than having a few quick and easy snack recipes up your sleeve. Whether you're looking for a tasty treat to enjoy during movie night or a flavorful bite to keep you energized throughout the day, we've got you covered. </h7>
+                  <a href="https://www.tasteofhome.com/collection/savory-snack-recipes/" style="color: white; font-size: medium;">Go straight to the recipes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+          <!--how it works-->
+          <!--<div>
+            <img src="images/how-img.png" alt="how it works" class="how">
+          </div>-->
+          <!--Categories-->
+            <h1 class="cat_heading">Categories</h1>
+            <div class="scroll-container">
+              <div class="scroll-text"><p class="cat_font">Feast your eyes on our delectable array of culinary categories!</p></div>
+            </div>  
+          <div class="cat">
+            <a href=""><img class="categories" src="images/breakfast.png" alt="breakfast picture"></a>
+            <a href=""><img class="categories" src="images/vegan.png" alt="vegan picture"></a>
+            <a href=""><img class="categories" src="images/meat.png" alt="meat picture"></a>
+            <a href=""><img class="categories" src="images/dessert.png" alt="dessert picture"></a>
+            <a href=""><img class="categories" src="images/lunch.png" alt="lunch picture"></a>
+            <a href=""><img class="categories" src="images/chocolate.png" alt="chocolate picture"></a>
+            <a href=""><img class="categories" src="images/mocktail.png" alt="mocktail picture"></a>
+          </div>
+          <div>
+            <a class="categories-link" id="link1" style="text-decoration: none;" href="">Breakfast</a>
+            <a class="categories-link" id="link2" style="text-decoration: none;" href="">Vegan</a>
+            <a class="categories-link" id="link3" style="text-decoration: none;" href="">Meat</a>
+            <a class="categories-link" id="link4" style="text-decoration: none;" href="">Dessert</a>
+            <a class="categories-link" id="link5" style="text-decoration: none;" href="">Lunch</a>
+            <a class="categories-link" id="link6" style="text-decoration: none;" href="">Chocolate</a>
+            <a class="categories-link" id="link7" style="text-decoration: none;" href="">Mocktail</a>
+          </div>
+            <!--trending recipes-->
+            <div class="trending">
+              <h1 class="cat_heading" style="color: black; margin-bottom: 3%;">Hot off the Stove: Exciting and Trending Recipes to Try Today</h1>
+              <div class="gallery">
+                <div class="gallery__column">
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/strawberry-chiffon-cake/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending1.jpg" alt="Strawberry chiffon cake" class="gallery__image">
+                      <figcaption class="gallery__caption">Strawberry chiffon cake</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/coronation-egg-sando/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending2.jpg" alt="Coronation egg sando" class="gallery__image">
+                      <figcaption class="gallery__caption">Coronation egg sando</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/sausage-fennel-and-mascarpone-orzo/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending3.jpg" alt="Sausage, fennel and mascarpone orzo" class="gallery__image">
+                      <figcaption class="gallery__caption">Sausage, fennel and mascarpone orzo</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="gallery__column">
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/gunpowders-bengali-beetroot-croquettes/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending4.jpg" alt="Gunpowder’s Bengali beetroot croquettes" class="gallery__image">
+                      <figcaption class="gallery__caption">Gunpowder’s Bengali beetroot croquettes</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/minced-beef-and-onion-pie/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending5.jpg" alt="Minced beef and onion pie" class="gallery__image">
+                      <figcaption class="gallery__caption">Minced beef and onion pie</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/mince-and-tatties-casserole/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending6.jpg" alt="Mince and tatties casserole" class="gallery__image">
+                      <figcaption class="gallery__caption">Mince and tatties casserole</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="gallery__column">
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/speedy-mackerel-pate/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending7.jpg" alt="Speedy mackerel pâté" class="gallery__image">
+                      <figcaption class="gallery__caption">Speedy mackerel pâté</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/creamy-chicken-and-mushroom-pasta/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending8.jpg" alt="Creamy chicken and mushroom pasta" class="gallery__image">
+                      <figcaption class="gallery__caption">Creamy chicken and mushroom pasta</figcaption>
+                    </figure>
+                  </a>
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/turkey-bolognese-bake/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending9.jpg" alt="Turkey bolognese bake" class="gallery__image">
+                      <figcaption class="gallery__caption">Turkey bolognese bake</figcaption>
+                    </figure>
+                  </a>
+                </div>
+                <div class="gallery__column">
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/james-martins-chocolate-mousse/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending10.jpg" alt="James Martin’s chocolate mousse" class="gallery__image">
+                      <figcaption class="gallery__caption">James Martin’s chocolate mousse</figcaption>
+                    </figure>
+                  </a>              
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/thai-green-prawn-curry/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending11.jpg" alt="Thai green prawn curry" class="gallery__image">
+                      <figcaption class="gallery__caption">Thai green prawn curry</figcaption>
+                    </figure>
+                  </a>              
+                  <a href="https://www.deliciousmagazine.co.uk/recipes/easy-butterfly-cakes/" target="_blank" class="gallery__link">
+                    <figure class="gallery__thumb">
+                      <img src="images/trending12.jpg" alt="Easy butterfly cakes" class="gallery__image">
+                      <figcaption class="gallery__caption">Easy butterfly cakes</figcaption>
+                    </figure>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--cooking videos-->
+            <div class="videos">
+              <h1 class="tutorials">Taste, Learn, Cook: Video Tutorials for Foodies</h1>
+              <div id="video_links">
+                <a href="https://youtu.be/0ewCyLMnasE"><img src="images/vidimg1.jpg" alt="Taco Salad picture"></a>
+                <a href="https://youtu.be/JgMarhUe2ZI"><img src="images/vidimg2.jpg" alt="Taco Salad picture" id="vidimg2"></a>
+                <a href="https://youtu.be/4j2PUwO_puQ"><img src="images/vidimg3.jpg" alt="Taco Salad picture" id="vidimg3"></a>
+                <a href="https://youtu.be/D1pHzeglVSs"><img src="images/vidimg4.jpg" alt="Taco Salad picture" id="vidimg4"></a>
+              </div>
+              <button type="button" class="btn btn-primary">View Instagram<i class="fa-brands fa-instagram"></i></button>
+            </div>      
+  <!--jquery link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <!--javascript file link-->
+  <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>   
