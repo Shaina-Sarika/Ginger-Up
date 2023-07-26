@@ -2,10 +2,9 @@
  font-family: 'Source Serif 4', serif;
    font-family: 'Ysabeau', sans-serif;
   color:white;
-  color: #252525;
-   color: #eb4846;
-   color: #e7f9fd;
-   color: #d9fff5;
+  color: #252525(black heading link);
+   color: #eb4846(mealdb red);
+   color: #d9fff5(light blue background);
    color: wheat;
 */
 body
@@ -250,9 +249,30 @@ body
 }
 .carousel-box
 {
-    background-color: #000;
-    opacity: .7;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 1rem;
+    animation: slideUp 0.5s 0.3s both;
+}
+h6 {
+    animation: slideUp 0.5s 0.6s both; /* Slide up after 300ms (0.6s) */
+}
+
+.btn-primary {
+    animation: slideUp 0.5s 0.9s both; /* Slide up after 600ms (0.9s) */
+}
+.car-link
+{
+    animation: slideUp 0.5s 0.9s both; 
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .fish-headingRight
 {
@@ -467,7 +487,7 @@ body
     background-attachment: fixed;
   }
   
-.trending
+#trending
 {
     margin-top: 3%;
     margin-bottom: 5%;
@@ -531,7 +551,7 @@ body
 	background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
 	transition: .3s;
 }
-.videos
+#videos
 {
     text-align: center;
 }
@@ -570,9 +590,44 @@ body
 {
     margin-left: 0.5rem;
 }
-
-
-
+#inbox
+{
+    border-radius: 25px;
+    background: #d9fff5;
+    margin: 15vh 9vh 7.5vh;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.inbox-title
+{
+    font-family: 'Source Serif 4', serif;
+    color: #252525;
+    padding-top: 9vh;
+    font-size: 3.4rem;
+    position: relative;
+}
+.inbox-content
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 2vh 36vh;
+    position: relative;
+}
+.inboxImg
+{
+    position: absolute;
+    width: 30%;
+    right: 150vh;
+    top: 14vh;
+}
+.inboxLeaf
+{
+    position: absolute;
+    left: 157vh;
+    top: 11.5vh;
+    width: 13%;
+}
   
   
 

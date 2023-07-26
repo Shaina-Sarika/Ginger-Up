@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:wght@700&family=Ysabeau:ital,wght@1,200&display=swap" rel="stylesheet">
     <!--font awesome link-->
     <script src="https://kit.fontawesome.com/3143629d5d.js" crossorigin="anonymous"></script>
+    <!--chatbot-->
+    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/59ac2e1a-86e8-466f-80a2-c9a6d35af1d3/webchat/config.js" defer></script>
 </head>
 <body>
     <!--navbar-->
@@ -26,34 +29,22 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav d-flex flex-row me-1 ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="search.html"><i class="fas fa-search"></i>     Search</a>
+                <a class="nav-link" href="search.html"><i class="fas fa-search"></i>     Search   </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trending"><i class="fa-solid fa-fire"></i>  Trending    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#videos"><i class="fa-solid fa-video"></i>  Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#inbox"><i class="fa-brands fa-telegram"></i>  Subscribe</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href=""><i class="fa-solid fa-info mx-2"></i>About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fa-solid fa-circle-plus mx-2"></i>Post</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fa-solid fa-user mx-2"></i>Profile</a>
-              </li>
-              <!--dropdown menu-->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="#">Notifications</a></li>
-                  <li><a class="dropdown-item" href="#">Liked Recipes</a></li>
-                  <li><a class="dropdown-item" href="#">Saved</a></li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Sign Out</a></li>
-                </ul>
-              </li>
             </ul>
-           </div>
+          </div>
         </nav> 
         <!--Carousel-->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -63,27 +54,30 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
+            <div class="carousel-item active" data-bs-interval="4000">
               <img src="images/slide1.png" class="d-block w-100 img" alt="picture 1">
               <div class="carousel-caption d-none d-md-block">
                 <div class="carousel-box">
                   <h6 style="margin-bottom: 3vh;">Short on time but still want to impress? Our quick and creative recipes are designed to deliver maximum flavor in minimum time. From 15-minute fried rice to speedy pasta dishes, you'll be amazed at what you can create in a flash.</h6>
-                  <button onclick="location.href='https://recipes.timesofindia.com/web-stories/18-quick-meals-that-can-be-made-in-15-minutes/photostory/98379869.cms';" type="button" class="btn btn-primary" style="margin-bottom: 1vh;">Click here to expore more</button>
+                  <button onclick="location.href='https://recipes.timesofindia.com/web-stories/18-quick-meals-that-can-be-made-in-15-minutes/photostory/98379869.cms';" type="button" class="btn btn-primary" style="margin-bottom: 1vh; font-size: medium;">Explore more</button>
                 </div>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="4000">
               <img src="images/slide2.png" class="d-block w-100 img" alt="picture 2">
               <div class="carousel-caption d-none d-md-block">
-                <a href="fishRecipe.html" style="color: white; font-size: 1.5rem;">Delight your taste buds with flavorful fish recipes that will make you crave for more</a>
+                <div class="carousel-box">
+                  <h6>Whether you're a seafood aficionado or looking to explore the world beneath the waves, we've got a variety of fish dishes to suit every palate. Join us as we navigate the vast ocean of flavors, sharing tips, tricks, and delicious creations that celebrate the natural bounty of the sea.</h6>
+                <a href="fishRecipe.html" style="color: white; font-size: medium;" class="car-link">Discover the ocean's flavors with our fish recipes!</a>
+                </div>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="4000">
               <img src="images/slide3.png" class="d-block w-100 img" alt="picture 3">
               <div class="carousel-caption d-none d-md-block">
                 <div class="carousel-box">
                   <h6>When hunger strikes, there's nothing better than having a few quick and easy snack recipes up your sleeve. Whether you're looking for a tasty treat to enjoy during movie night or a flavorful bite to keep you energized throughout the day, we've got you covered. </h6>
-                  <a href="https://www.tasteofhome.com/collection/savory-snack-recipes/" style="color: white; font-size: medium;">Go straight to the recipes</a>
+                  <a href="https://www.tasteofhome.com/collection/savory-snack-recipes/" style="color: white; font-size: medium;" class="car-link">Go straight to the recipes</a>
                 </div>
               </div>
             </div>
@@ -134,7 +128,7 @@
             <button onclick="location.href='search.html';" type="button" class="btn btn-primary">Discover all recipes</button>
          </div>
             <!--trending recipes-->
-            <div class="trending">
+            <div id="trending">
               <h1 class="cat_heading" style="color: black; margin-bottom: 3%;">Hot off the Stove: Exciting and Trending Recipes to Try Today</h1>
               <div class="gallery">
                 <div class="gallery__column">
@@ -220,7 +214,7 @@
               </div>
             </div>
             <!--cooking videos-->
-            <div class="videos">
+            <div id="videos">
               <h1 class="tutorials">Taste, Learn, Cook: Video Tutorials for Foodies</h1>
               <div id="video_links">
                 <a href="https://youtu.be/0ewCyLMnasE"><img src="images/vidimg1.jpg" alt="Taco Salad picture"></a>
@@ -228,8 +222,93 @@
                 <a href="https://youtu.be/4j2PUwO_puQ"><img src="images/vidimg3.jpg" alt="Taco Salad picture" id="vidimg3"></a>
                 <a href="https://youtu.be/D1pHzeglVSs"><img src="images/vidimg4.jpg" alt="Taco Salad picture" id="vidimg4"></a>
               </div>
-              <button type="button" class="btn btn-primary">View Instagram<i class="fa-brands fa-instagram"></i></button>
-            </div>      
+            </div>  
+            <!--inbox-->
+            <div id="inbox">
+              <h1 class="inbox-title">Deliciousness to your inbox</h1>
+              <p class="inbox-content">Join our food blog community, where delectable recipes, culinary insights, and cultural tales await. Subscribe now for a weekly dose of foodie inspiration delivered to your inbox. Let's savor the flavors together!</p>
+              <button onclick="location.href='search.html';" type="button" class="btn btn-primary" style="margin-top: 4vh;">Subscribe<i class="fa-brands fa-telegram" style="padding-left: 1.25vh;"></i></button>
+              <img src="images/inbox-img.png" alt="Lunch bowl" class="inboxImg">
+              <img src="images/inbox-leaf.png" alt="picture" class="inboxLeaf">
+            </div>  
+            <!--footer-->  
+            <div class="footer" style="font-family: 'Poppins', sans-serif;">
+              <section class="">
+                <!-- Footer -->
+                <footer class="bg-secondary text-white text-center text-md-start" style="background-color: #252525 !important;">
+                  <!-- Grid container -->
+                  <div class="container p-4">
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Ginger Up</h5>
+                        <p>
+                          Delight in a world of culinary wonders at our food blog. 
+                          Experience the joy of discovering diverse flavors and mouthwatering recipes. 
+                          Let's embark on this delicious journey together!
+                        </p>
+                      </div>
+                      <!--Grid column-->
+              
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Follow Us</h5>
+              
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-instagram" style="margin-left: 0;"></i></a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-pinterest-p"></i></a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+              
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="margin-top: 3vh;">
+                        <ul class="list-unstyled">
+                          <li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="search.html">Search</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#trending">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#videos">Videos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#inbox">Subscribe</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="">About Us</a>
+                            </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                  </div>
+                  <!-- Grid container -->
+              
+                  <!-- Copyright -->
+                  <div class="text-center p-3" style="background-color: #252525;">
+                    © 2023 Copyright:
+                    <a class="text-white" href="">gingerUp.com</a>
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+              </section>
+            </div>
   <!--jquery link-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <!--javascript file link-->
