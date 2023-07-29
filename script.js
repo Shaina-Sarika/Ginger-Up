@@ -98,8 +98,7 @@ function mealRecipeModal(meal){
 
 
 
-
-    
-
-
-
+//redirecting to the signup page
+function redirectToInbox() {
+  window.location.href = "http://localhost:3000/inbox.html";
+}

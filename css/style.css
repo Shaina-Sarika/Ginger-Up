@@ -618,17 +618,37 @@ h6 {
 {
     position: absolute;
     width: 30%;
-    right: 150vh;
-    top: 14vh;
+    right: 162vh;
+    top: 16vh;
 }
 .inboxLeaf
 {
     position: absolute;
-    left: 157vh;
+    left: 167vh;
     top: 11.5vh;
     width: 13%;
 }
-  
+/*floating search*/ 
+.search-button {
+    position: fixed;
+    bottom: 120px;
+    right: 39px;
+    width: 52.5px;
+    height: 52.5px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.search-button i {
+    color: #fff;
+    font-size: 24px;
+}
   
 
 

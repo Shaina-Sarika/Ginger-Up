@@ -18,11 +18,16 @@
     <!--chatbot-->
     <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/59ac2e1a-86e8-466f-80a2-c9a6d35af1d3/webchat/config.js" defer></script>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon1/favicon-16x16.png">
+    <link rel="manifest" href="favicon1/site.webmanifest">
 </head>
 <body>
     <!--navbar-->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-          <a class="navbar-brand" href="">Ginger Up</a>
+          <img src="images/logo1.png" alt="Ginger Up" style="width: 8%; padding-left: 2vh;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +46,7 @@
                 <a class="nav-link" href="#inbox"><i class="fa-brands fa-telegram"></i>  Subscribe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""><i class="fa-solid fa-info mx-2"></i>About Us</a>
+                <a class="nav-link" href="about.html"><i class="fa-solid fa-info mx-2"></i>About</a>
               </li>
             </ul>
           </div>
@@ -227,7 +232,7 @@
             <div id="inbox">
               <h1 class="inbox-title">Deliciousness to your inbox</h1>
               <p class="inbox-content">Join our food blog community, where delectable recipes, culinary insights, and cultural tales await. Subscribe now for a weekly dose of foodie inspiration delivered to your inbox. Let's savor the flavors together!</p>
-              <button onclick="location.href='search.html';" type="button" class="btn btn-primary" style="margin-top: 4vh;">Subscribe<i class="fa-brands fa-telegram" style="padding-left: 1.25vh;"></i></button>
+              <button onclick="redirectToInbox();" type="button" class="btn btn-primary" style="margin-top: 4vh;">Subscribe<i class="fa-brands fa-telegram" style="padding-left: 1.25vh;"></i></button>
               <img src="images/inbox-img.png" alt="Lunch bowl" class="inboxImg">
               <img src="images/inbox-leaf.png" alt="picture" class="inboxLeaf">
             </div>  
@@ -242,12 +247,13 @@
                     <div class="row">
                       <!--Grid column-->
                       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Ginger Up</h5>
+                        <img src="images/logo1.png" alt="Ginger Up" style="width: 20%; padding-bottom: 2vh;">
                         <p>
                           Delight in a world of culinary wonders at our food blog. 
                           Experience the joy of discovering diverse flavors and mouthwatering recipes. 
                           Let's embark on this delicious journey together!
                         </p>
+                        <p>Write to us at <a href="mailto:gingerup@gmail.com" style="color: white;">gingerup@gmail.com</a></p>
                       </div>
                       <!--Grid column-->
               
@@ -289,7 +295,7 @@
                               <a class="nav-link" href="#inbox">Subscribe</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="">About Us</a>
+                              <a class="nav-link" href="about.html">About</a>
                             </li>
                         </ul>
                       </div>
@@ -308,6 +314,9 @@
                 </footer>
                 <!-- Footer -->
               </section>
+            </div>
+            <div class="search-button">
+              <a href="search.html"><i class="fas fa-search"></i></a>
             </div>
   <!--jquery link-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
