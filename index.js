@@ -52,3 +52,8 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
     console.log("Listening on PORT 3000");
 });
+
+//redirecting to the signup page
+function redirectToInbox() {
+  window.location.href = "https://gingerup.onrender.com/inbox.html";
+}
