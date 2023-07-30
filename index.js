@@ -55,5 +55,5 @@ app.listen(3000, () => {
 
 //redirecting to the signup page
 function redirectToInbox() {
-  window.location.href = "https://gingerup.onrender.com/inbox.html";
+  window.location.href = "http://localhost:3000/inbox.html";
 }
