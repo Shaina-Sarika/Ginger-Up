@@ -9,7 +9,7 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
 
 1. **Interactive User-friendly Interface:** Our website is designed to provide a seamless user experience. The intuitive interface allows you to navigate through various recipes and find what you desire quickly.
 
-2. **User Sign-up and Login:** Sign up with your email and password to create an account and log in to Foodie Delights. This will enable you to save your favorite recipes, keep track of your cooking journey, and engage with other food enthusiasts.
+2. **User Sign-up** Sign up with your username, email, phone number and password to create an account and log in to Foodie Delights. This will enable you to receive updates on new recipes and weekly newslates on delightful recipes.
 
 3. **API for Recipe Search:** Our powerful API allows you to search for recipes based on different criteria:
    - **Ingredient:** Find recipes that include your favorite ingredient.
@@ -18,7 +18,7 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
    - **Cuisine:** Indulge in the flavors of various cuisines from different cultures.
    - **Type:** Choose recipes based on your preferred meal type (breakfast, lunch, dinner, dessert, etc.).
 
-4. **Personalized Recipe Recommendations:** Our smart chatbot engages in a friendly conversation with you, asking questions about your dietary preferences, allergies, and tastes. Based on your responses, it provides tailored recipe suggestions that match your unique requirements.
+4. **Personalized Recipe Recommendations:** Our smart chatbot engages in a friendly conversation with you, asking questions about your dietary preferences, tastes and  number of people to be fed. Based on your responses, it provides tailored recipe suggestions that match your unique requirements.
 
 5. **Video Tutorials:** We understand that visual guidance can be invaluable when trying out new recipes. Foodie Delights offers a collection of video tutorials to assist you in preparing the most delightful dishes with ease.
 
@@ -37,12 +37,11 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
 
 2. Clone this repository to your local machine:
    ```
-   git clone https://github.com/your-username/foodie-delights.git
+   git clone https://github.com/Shaina-Sarika/Ginger-Up.git
    ```
 
 3. Navigate to the backend directory and install the required dependencies:
    ```
-   cd foodie-delights/backend
    npm install
    ```
 
@@ -61,7 +60,6 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
 
 6. Open a new terminal window, navigate to the frontend directory, and install the required dependencies:
    ```
-   cd ../frontend
    npm install
    ```
 
@@ -70,18 +68,14 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
    npm start
    ```
 
-8. Open your web browser and visit `http://localhost:3000` to access Foodie Delights.
+8. Open your web browser and visit `http://localhost:3000` to access Ginger Up.
 
 ## Contributing
 
 We welcome contributions from the open-source community. If you find any issues or want to enhance the website's functionality, feel free to submit a pull request.
 
-## License
-
-Foodie Delights is open-source and licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Contact Us
 
-If you have any questions, suggestions, or feedback, please don't hesitate to [contact us](mailto:contact@foodiedelights.com).
+If you have any questions, suggestions, or feedback, please don't hesitate to [contact us](mailto:shainasarika@gmail.com).
 
 Happy cooking and bon appétit! 🍽️
