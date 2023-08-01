@@ -7,12 +7,12 @@ Project is live at <https://shaina-sarika.github.io/Ginger-Up/>
 
 ![home page](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/b7af2dcd-ef38-4317-a51d-dcc83e9499c9)
 
-##Problem Statement
+## Problem Statement
 Many of us have faced the dilemma of wanting to cook something delicious but being short on ingredients at home. It becomes challenging to figure out what to cook with the limited items available in our kitchen. Whether we cannot go out to buy groceries or are confined to our homes due to various circumstances like the COVID-19 pandemic, we often find ourselves feeling helpless in such situations.
 
 We resort to searching for recipes online that match our available ingredients, but it's frustrating to hardly find any suitable results, and the process consumes a lot of time. As a result, we often end up disappointed, unable to make the most of what we have in our kitchen. There is a clear need for a solution that can take our available ingredients as input and provide us with a list of recipes that perfectly suit our situation, enabling us to create delicious food at home.
 
-##Our Solution
+## Our Solution
 Introducing "Ginger Up" a user-friendly system designed to assist you in such predicaments. Ginger Up offers a comprehensive solution to address the challenges faced when cooking with limited ingredients. Our system provides the following functionalities:
 
 Ingredient-Based Search: Input the ingredients available in your kitchen, and Ginger Up will find recipes that incorporate those specific ingredients, turning your limited supplies into delightful culinary creations.
