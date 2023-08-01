@@ -9,9 +9,15 @@ Project is live at <https://shaina-sarika.github.io/Ginger-Up/>
 
 ## Features
 
-1. **Interactive User-friendly Interface:** Our website is designed to provide a seamless user experience. The intuitive interface allows you to navigate through various recipes and find what you desire quickly.
+1. **Interactive User-friendly Interface:** Our website is designed to provide a seamless user experience. The intuitive interface allows you to navigate through various recipes and find
+what you desire quickly.
 
+ ![User-friendly](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/836413e8-e880-4817-9141-9664d5ab2eef)
+
+ 
 2. **User Sign-up** Sign up with your username, email, phone number and password to create an account and log in to Foodie Delights. This will enable you to receive updates on new recipes and weekly newslates on delightful recipes.
+
+
 
 3. **API for Recipe Search:** Our powerful API allows you to search for recipes based on different criteria:
    - **Ingredient:** Find recipes that include your favorite ingredient.
@@ -20,9 +26,20 @@ Project is live at <https://shaina-sarika.github.io/Ginger-Up/>
    - **Cuisine:** Indulge in the flavors of various cuisines from different cultures.
    - **Type:** Choose recipes based on your preferred meal type (breakfast, lunch, dinner, dessert, etc.).
 
+![Recipe Search](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/63bf2387-671d-430e-afb9-1930d1044322)
+
+
 4. **Personalized Recipe Recommendations:** Our smart chatbot engages in a friendly conversation with you, asking questions about your dietary preferences, tastes and  number of people to be fed. Based on your responses, it provides tailored recipe suggestions that match your unique requirements.
 
+![ChatBot](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/e15d7335-69e1-45d8-9fae-2dfcc8daa00a)
+![ChatBot (2)](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/e6c16b2a-4c19-4dc4-9d63-aee340be900b)
+
+
+
 5. **Video Tutorials:** We understand that visual guidance can be invaluable when trying out new recipes. Foodie Delights offers a collection of video tutorials to assist you in preparing the most delightful dishes with ease.
+
+![video tutorials](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/8efba718-4ce2-4f61-bc54-a4d83387c103)
+
 
 ## Tech Stack
 
