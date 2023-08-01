@@ -73,6 +73,7 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
 ## Contributing
 
 We welcome contributions from the open-source community. If you find any issues or want to enhance the website's functionality, feel free to submit a pull request.
+Give a ⭐️ if you like this project!
 
 ## Contact Us
 
