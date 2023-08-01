@@ -29,7 +29,7 @@ Welcome to Ginger Up, your one-stop destination for exploring delicious recipes 
   - MongoDB: To store and manage recipe data and user information.
 
 - **Frontend:**
-  - HTML, CSS, and JavaScript: For creating the user interface and interactivity.
+  - HTML, CSS, Bootstrap and JavaScript: For creating the user interface and interactivity.
 
 ## Getting Started
 
