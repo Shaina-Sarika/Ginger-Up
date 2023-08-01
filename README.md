@@ -80,5 +80,7 @@ Give a ⭐️ if you like this project!
 ## Contact Us
 
 If you have any questions, suggestions, or feedback, please don't hesitate to [contact us](mailto:shainasarika@gmail.com).
+LinkedIn : <https://www.linkedin.com/in/shaina-sarika/>
+GitHub : <https://github.com/Shaina-Sarika>
 
 Happy cooking and bon appétit! 🍽️
