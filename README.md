@@ -1,8 +1,9 @@
 <h1 align="center">Ginger Up - Food Recipe Website</h1>
 
-Welcome to Foodie Delights, your one-stop destination for exploring delicious recipes from around the world. Our website offers an interactive user-friendly interface with sign-up credentials, a powerful API to fetch recipes based on various criteria, a helpful chatbot that personalizes your recipe recommendations, and video tutorials to assist you in creating culinary masterpieces.
+Welcome to Ginger Up, your one-stop destination for exploring delicious recipes from around the world. Our website offers an interactive user-friendly interface with sign-up credentials, a powerful API to fetch recipes based on various criteria, a helpful chatbot that personalizes your recipe recommendations, and video tutorials to assist you in creating culinary masterpieces.
 
-![Foodie Delights](https://your-website-url.com/images/foodie_delights_banner.jpg)
+
+![home page](https://github.com/Shaina-Sarika/Ginger-Up/assets/130648106/b7af2dcd-ef38-4317-a51d-dcc83e9499c9)
 
 ## Features
 
