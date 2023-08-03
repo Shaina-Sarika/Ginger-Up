@@ -368,7 +368,7 @@ h6 {
     font-family: 'Source Serif 4', serif;
     font-size: 3.8rem;
     font-weight: 600;
-    margin:1.8rem 5rem 0.5rem 12rem;
+    margin:1.8% 5% 0.5% 12%;
 }
 .scroll-container {
     border: 2px solid black;
@@ -420,56 +420,44 @@ h6 {
     font-size: 1.6rem;
     margin: 0;
 }
-.cat
-{
-    margin:0rem 2.5rem 0rem 2.5rem;
-}
-.categories
-{
-    margin: 1.7rem 2rem 0.5rem 2rem;
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .categories {
+    margin: 0.5rem;
     width: 8rem;
-}
-.categories-link
-{
+  }
+  
+  .categories-link {
     color: #252525;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-}
-#link1
-{
-    position: absolute;
-    left: 5.3rem;
-}
-#link2
-{
-    position: relative;
-    left: 18.6rem;
-}
-#link3
-{
-    position: absolute;
-    left: 31.3rem;
-}
-#link4
-{
-    position: absolute;
-    left: 42.9rem;
-}
-#link5
-{
-    position: absolute;
-    left: 55.6rem;
-}
-#link6
-{
-    position: absolute;
-    left: 66.3rem;
-}
-#link7
-{
-    position: absolute;
-    left: 79.4rem;
-}
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+  }
+  @media screen and (max-width: 1219px){
+    .scroll-container{
+        display: block;
+    }
+    .cat_heading{
+        margin-left:0;
+        margin-right: 0;
+    }
+
+
+  }
 /*Search*/
 .image-container {
     margin-top: 4%;
@@ -590,6 +578,8 @@ h6 {
 {
     margin-left: 0.5rem;
 }
+
+/*subscribe css*/
 #inbox
 {
     border-radius: 25px;
@@ -627,6 +617,17 @@ h6 {
     left: 167vh;
     top: 11.5vh;
     width: 13%;
+}
+@media screen and (max-width: 1270px){
+    .inboxImg, .inboxLeaf
+    {
+        display: none;
+    }
+    .inbox-content
+    {
+        padding: 2vh;
+    }
+
 }
 /*floating search*/ 
 .search-button {
