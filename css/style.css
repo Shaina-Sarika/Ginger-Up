@@ -286,8 +286,6 @@ h6 {
 }
 .container {
     display: flex;
-    margin-left: 0;
-    margin-right: 0;
     --bs-gutter-x: 0;
   }
   .image-container-left {
@@ -332,26 +330,17 @@ h6 {
     }
   }
 
-  @media (min-width: 775px){
+  @media screen and (min-width: 775px){
     .fish-recipeRight,
     .fish-recipeLeft{
-        margin: 0vh 7vh 8vh 20vh;
+        margin: 0vh 1.12rem 1.28rem 3.2rem;
     }
     .fish-headingRight,
       .fish-headingLeft {
-        margin: 2vh 10vh 5vh 20vh;
+        margin: 0.32rem 1.6rem 0.8rem 3.2rem;
       }
   }
-  @media (max-width: 774px){
-    .fish-recipeRight,
-    .fish-recipeLeft{
-        margin: 4vh;
-    }
-    .fish-headingRight,
-      .fish-headingLeft {
-        margin: 4vh;
-      }
-  }
+ 
       @media (max-width: 1200px) {
         .container {
           flex-wrap: wrap;
@@ -360,7 +349,7 @@ h6 {
         .image-container-right {
           width: 100%;
           position: relative;
-          margin: 3vh 0 8vh;
+          margin: 3vh 0 5vh;
         }
         .image-container-right {
           order: -1;
@@ -371,7 +360,14 @@ h6 {
           animation: none;
         }
       }
-  
+     
+      @media (min-width: 1201px)
+      {
+        .container {
+            margin-left: 0;
+            margin-right: 0;
+        }
+      }
       
     
   
