@@ -32,6 +32,12 @@ body
 {
     margin-top: 1rem;
 }
+@media (max-width: 1000px){
+    .nav-link
+    {
+        font-size: 1.5rem;
+    }
+}
 /*search bar and api recipe search*/
 :root{
     --tenne-tawny:  #eb4846;
